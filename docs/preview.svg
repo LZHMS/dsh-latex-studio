@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 820" width="1280" height="820" font-family="Segoe UI, Microsoft YaHei, sans-serif">
+  <defs>
+    <linearGradient id="pagebg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef1f7"/>
+      <stop offset="1" stop-color="#e2e7f0"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#101527" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="1280" height="820" rx="16" fill="url(#pagebg)"/>
+
+  <!-- app window -->
+  <g filter="url(#shadow)">
+    <rect x="40" y="30" width="1200" height="700" rx="12" fill="#ffffff" stroke="#c9d2e3"/>
+    <!-- tab strip -->
+    <rect x="40" y="30" width="1200" height="44" rx="12" fill="#f2f4f8"/>
+    <g transform="translate(64,42)">
+      <path d="M20.5 3.5C16.8 5.6 11.6 8.6 7.6 13.4c-1.4 1.7-2.2 3.2-2.6 4.9 2-.7 3.8-2.1 6-4.1 3.2-2.9 6.9-7.2 9.5-10.7Z" fill="#33415c"/>
+      <text x="34" y="17" font-size="14" fill="#33415c" font-weight="600">LaTeX Studio</text>
+    </g>
+    <rect x="240" y="38" width="30" height="28" rx="7" fill="#e6eaf2"/>
+    <text x="249" y="57" font-size="14" fill="#7a869c">+</text>
+
+    <!-- ============ left pane : source ============ -->
+    <!-- source bar -->
+    <rect x="40" y="74" width="600" height="40" fill="#f7f9fc"/>
+    <line x1="40" y1="114" x2="640" y2="114" stroke="#d8dfeb"/>
+    <circle cx="58" cy="94" r="5" fill="#f5a623"/>
+    <rect x="72" y="82" width="150" height="24" rx="6" fill="#ffffff" stroke="#c9d2e3"/>
+    <text x="82" y="99" font-size="11" fill="#33415c" font-family="Consolas,monospace">main.tex</text>
+    <g font-size="11" fill="#33415c">
+      <rect x="232" y="82" width="52" height="24" rx="6" fill="#eef1f7" stroke="#c9d2e3"/><text x="244" y="99">Browse…</text>
+      <rect x="292" y="82" width="26" height="24" rx="6" fill="#eef1f7" stroke="#c9d2e3"/><text x="299" y="99">↶</text>
+      <rect x="322" y="82" width="26" height="24" rx="6" fill="#eef1f7" stroke="#c9d2e3"/><text x="329" y="99">↷</text>
+      <rect x="352" y="82" width="26" height="24" rx="6" fill="#eef1f7" stroke="#c9d2e3"/><text x="358" y="99">⇤</text>
+    </g>
+    <text x="470" y="99" font-size="11" fill="#157f3d">Compiled ✓</text>
+    <text x="580" y="99" font-size="11" fill="#7a869c">● unsaved</text>
+
+    <!-- gutter -->
+    <rect x="40" y="114" width="46" height="616" fill="#f7f9fc"/>
+    <line x1="86" y1="114" x2="86" y2="730" stroke="#dfe5ee"/>
+    <g font-family="Consolas,monospace" font-size="11" fill="#8d97a8" text-anchor="end">
+      <text x="78" y="140">001</text>
+      <text x="78" y="164">002</text>
+      <text x="78" y="188">003</text>
+      <text x="78" y="212">004</text>
+      <text x="78" y="236">005</text>
+      <text x="78" y="260">006</text>
+      <text x="78" y="284">007</text>
+      <text x="78" y="308">008</text>
+      <text x="78" y="332">009</text>
+      <text x="78" y="356">010</text>
+    </g>
+
+    <!-- caret line band -->
+    <rect x="86" y="176" width="554" height="20" fill="rgba(122,158,255,0.18)"/>
+    <!-- comment line band -->
+    <rect x="86" y="248" width="554" height="20" fill="rgba(245,196,81,0.18)"/>
+    <!-- gutter chips -->
+    <rect x="48" y="250" width="17" height="17" rx="4" fill="rgba(245,196,81,0.5)"/>
+    <text x="51" y="263" font-size="10">💬</text>
+    <rect x="48" y="322" width="17" height="17" rx="4" fill="rgba(120,130,150,0.14)" stroke="#8d97a8" stroke-dasharray="3 2"/>
+    <text x="51" y="335" font-size="10">📝</text>
+
+    <!-- code sample -->
+    <g font-family="Consolas,monospace" font-size="11.5">
+      <text x="96" y="140" fill="#6a737d" font-style="italic">% demo document</text>
+      <text x="96" y="164"><tspan fill="#8250df">\documentclass</tspan><tspan fill="#7a869c">[</tspan><tspan fill="#33415c">10pt</tspan><tspan fill="#7a869c">]{</tspan><tspan fill="#33415c">article</tspan><tspan fill="#7a869c">}</tspan></text>
+      <text x="96" y="188"><tspan fill="#1a7f37" font-weight="700">\begin</tspan><tspan fill="#7a869c">{</tspan><tspan fill="#1a7f37" font-weight="700">document</tspan><tspan fill="#7a869c">}</tspan></text>
+      <text x="96" y="212"><tspan fill="#8250df">\title</tspan><tspan fill="#7a869c">{</tspan><tspan fill="#33415c">Demo Paper</tspan><tspan fill="#7a869c">}</tspan></text>
+      <text x="96" y="236"><tspan fill="#8250df">\maketitle</tspan></text>
+      <text x="96" y="260"><tspan fill="#1a7f37" font-weight="700">\begin</tspan><tspan fill="#7a869c">{</tspan><tspan fill="#1a7f37" font-weight="700">abstract</tspan><tspan fill="#7a869c">}</tspan></text>
+      <text x="96" y="284"><tspan fill="#33415c">We propose</tspan> <tspan fill="#0a7ea4">$v = Wz + b$</tspan></text>
+      <text x="96" y="308"><tspan fill="#33415c">a tiny example for the gallery.</tspan></text>
+      <text x="96" y="332"><tspan fill="#6a737d" font-style="italic">% TODO: cite ablation</tspan></text>
+      <text x="96" y="356"><tspan fill="#1a7f37" font-weight="700">\end</tspan><tspan fill="#7a869c">{</tspan><tspan fill="#1a7f37" font-weight="700">abstract</tspan><tspan fill="#7a869c">}</tspan></text>
+    </g>
+
+    <!-- selection + comment button -->
+    <rect x="230" y="272" width="190" height="18" rx="3" fill="rgba(77,127,255,0.45)"/>
+    <rect x="392" y="294" width="96" height="26" rx="7" fill="#ffffff" stroke="#c9d2e3"/>
+    <text x="402" y="311" font-size="11" fill="#33415c">💬 Comment</text>
+
+    <!-- comment popover -->
+    <g filter="url(#shadow)">
+      <rect x="150" y="380" width="380" height="150" rx="10" fill="#ffffff" stroke="#c9d2e3"/>
+      <rect x="162" y="392" width="4" height="26" fill="rgba(245,196,81,0.7)"/>
+      <text x="176" y="407" font-size="10.5" fill="#7a869c" font-family="Consolas,monospace">We propose $v = Wz + b$</text>
+      <text x="176" y="422" font-size="10.5" fill="#7a869c" font-family="Consolas,monospace">a tiny example for the gallery.</text>
+      <rect x="162" y="432" width="356" height="52" rx="6" fill="#f7f9fc" stroke="#c9d2e3"/>
+      <text x="172" y="452" font-size="11" fill="#33415c">Check the math notation with §3.</text>
+      <text x="172" y="470" font-size="9.5" fill="#8d97a8">Ctrl+Enter adds · drafts auto-stash as 📝</text>
+      <rect x="404" y="492" width="54" height="24" rx="6" fill="#eef1f7" stroke="#c9d2e3"/><text x="420" y="508" font-size="10.5" fill="#33415c">Cancel</text>
+      <rect x="466" y="492" width="52" height="24" rx="6" fill="#2f6fed"/><text x="481" y="508" font-size="10.5" fill="#ffffff">Add</text>
+    </g>
+
+    <!-- splitter -->
+    <rect x="638" y="114" width="5" height="616" fill="#c9d2e3"/>
+
+    <!-- ============ right pane : PDF ============ -->
+    <!-- pdf bar -->
+    <rect x="643" y="74" width="597" height="40" fill="#f7f9fc"/>
+    <line x1="643" y1="114" x2="1240" y2="114" stroke="#d8dfeb"/>
+    <g>
+      <rect x="655" y="80" width="118" height="28" rx="7" fill="#2f6fed"/>
+      <path d="M665 88l11 6-11 6Z" fill="#ffffff"/>
+      <text x="682" y="99" font-size="12" fill="#ffffff">Recompile</text>
+      <rect x="773" y="80" width="22" height="28" rx="7" fill="#2f6fed"/>
+      <text x="779" y="98" font-size="10" fill="#ffffff">▾</text>
+      <circle cx="791" cy="86" r="3" fill="#2ee6a8"/>
+    </g>
+    <g>
+      <rect x="806" y="80" width="120" height="28" rx="7" fill="#ffffff" stroke="#c9d2e3"/>
+      <text x="814" y="99" font-size="11" fill="#33415c">Logs</text>
+      <circle cx="852" cy="94" r="6" fill="none" stroke="#e5484d" stroke-width="1.4"/>
+      <text x="849" y="98" font-size="8" fill="#e5484d">×</text><text x="861" y="98" font-size="10" fill="#33415c">0</text>
+      <path d="M878 88l7 12h-14Z" fill="none" stroke="#f5a623" stroke-width="1.4"/><text x="886" y="98" font-size="10" fill="#33415c">3</text>
+      <circle cx="905" cy="94" r="6" fill="none" stroke="#4d9fe8" stroke-width="1.4"/><text x="903" y="97" font-size="7.5" fill="#4d9fe8">i</text><text x="913" y="98" font-size="10" fill="#33415c">2</text>
+    </g>
+    <rect x="1050" y="80" width="118" height="28" rx="7" fill="none" stroke="#c9d2e3"/>
+    <text x="1058" y="98" font-size="9.5" fill="#7a869c" font-family="Consolas,monospace">MiKTeX-XeTeX 4.18</text>
+    <!-- layout segment + download -->
+    <g>
+      <rect x="938" y="80" width="30" height="28" rx="7" fill="#ffffff" stroke="#c9d2e3"/>
+      <text x="944" y="99" font-size="10" fill="#7a869c">&lt;/&gt;</text>
+      <rect x="972" y="80" width="30" height="28" rx="7" fill="rgba(47,111,237,0.1)" stroke="#2f6fed"/>
+      <text x="979" y="99" font-size="11" fill="#2f6fed">▯▯</text>
+      <rect x="1006" y="80" width="30" height="28" rx="7" fill="#ffffff" stroke="#c9d2e3"/>
+      <text x="1013" y="99" font-size="11" fill="#7a869c">🖹</text>
+      <rect x="1178" y="80" width="30" height="28" rx="7" fill="#ffffff" stroke="#c9d2e3"/>
+      <path d="M1193 86v12m0 0l-4-4m4 4l4-4" stroke="#33415c" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+      <path d="M1187 104h12" stroke="#33415c" stroke-width="1.6" stroke-linecap="round"/>
+    </g>
+
+    <!-- mode menu open -->
+    <g filter="url(#shadow)">
+      <rect x="655" y="114" width="196" height="150" rx="10" fill="#ffffff" stroke="#c9d2e3"/>
+      <g font-size="11.5" fill="#33415c">
+        <text x="670" y="138">Recompile</text>
+        <text x="670" y="162">Clean and recompile</text>
+        <text x="670" y="186">Auto compile</text>
+        <text x="838" y="186" fill="#2f6fed" font-weight="700">✓</text>
+      </g>
+      <line x1="663" y1="198" x2="843" y2="198" stroke="#dfe5ee"/>
+      <text x="670" y="216" font-size="9" fill="#8d97a8">Compiler</text>
+      <g font-size="11.5" fill="#33415c">
+        <text x="670" y="236">xelatex</text>
+        <text x="838" y="236" fill="#2f6fed" font-weight="700">✓</text>
+        <text x="670" y="256">pdflatex</text>
+      </g>
+    </g>
+
+    <!-- pdf body -->
+    <rect x="643" y="114" width="597" height="616" fill="#3f4652"/>
+    <!-- zoom bar -->
+    <g>
+      <rect x="1122" y="126" width="102" height="24" rx="7" fill="rgba(12,16,26,0.85)" stroke="rgba(255,255,255,0.2)"/>
+      <text x="1130" y="142" font-size="12" fill="#d6dcec">−</text>
+      <text x="1146" y="141" font-size="10" fill="#aeb6c8">110%</text>
+      <text x="1176" y="142" font-size="12" fill="#d6dcec">+</text>
+      <text x="1196" y="141" font-size="11" fill="#aeb6c8">⤢</text>
+    </g>
+    <!-- pdf page -->
+    <rect x="760" y="132" width="420" height="580" fill="#ffffff"/>
+    <text x="970" y="168" text-anchor="middle" font-size="15" font-weight="700" fill="#111827">Demo Paper:</text>
+    <text x="970" y="188" text-anchor="middle" font-size="15" font-weight="700" fill="#111827">A Friendly Getting-Started Doc</text>
+    <text x="970" y="212" text-anchor="middle" font-size="10" fill="#5d6880">An example LaTeX document</text>
+    <text x="970" y="240" text-anchor="middle" font-size="11" font-weight="700" fill="#111827">Abstract</text>
+    <g fill="#c8cfda">
+      <rect x="790" y="256" width="360" height="5" rx="2"/><rect x="790" y="268" width="360" height="5" rx="2"/><rect x="790" y="280" width="330" height="5" rx="2"/>
+      <rect x="790" y="292" width="360" height="5" rx="2"/><rect x="790" y="304" width="300" height="5" rx="2"/>
+      <rect x="790" y="324" width="360" height="5" rx="2"/><rect x="790" y="336" width="345" height="5" rx="2"/><rect x="790" y="348" width="360" height="5" rx="2"/><rect x="790" y="360" width="280" height="5" rx="2"/>
+    </g>
+    <!-- synced selection in pdf -->
+    <rect x="880" y="292" width="150" height="8" rx="2" fill="rgba(77,127,255,0.5)"/>
+    <g fill="#c8cfda">
+      <text x="790" y="412" font-size="10" font-weight="700" fill="#33415c">1  Introduction</text>
+      <rect x="790" y="422" width="360" height="5" rx="2"/><rect x="790" y="434" width="355" height="5" rx="2"/><rect x="790" y="446" width="360" height="5" rx="2"/><rect x="790" y="458" width="320" height="5" rx="2"/><rect x="790" y="470" width="360" height="5" rx="2"/><rect x="790" y="482" width="180" height="5" rx="2"/>
+    </g>
+    <g fill="#c8cfda">
+      <rect x="790" y="512" width="360" height="5" rx="2"/><rect x="790" y="524" width="340" height="5" rx="2"/><rect x="790" y="536" width="360" height="5" rx="2"/><rect x="790" y="548" width="300" height="5" rx="2"/><rect x="790" y="560" width="360" height="5" rx="2"/><rect x="790" y="572" width="240" height="5" rx="2"/>
+    </g>
+    <text x="970" y="690" text-anchor="middle" font-size="10" fill="#5d6880">1</text>
+
+    <!-- sync arrow code -> pdf -->
+    <path d="M430 292 C 620 330, 700 300, 878 296" fill="none" stroke="#4d7fff" stroke-width="2" stroke-dasharray="6 4"/>
+    <path d="M878 296l-9-4m9 4l-9 4" stroke="#4d7fff" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- captions -->
+  <g font-size="13" fill="#33415c">
+    <text x="40" y="768" font-weight="700">LaTeX Studio</text>
+    <text x="140" y="768" fill="#5d6880">two-level undo · line numbers · caret line · sidecar comments with auto-stash drafts · Recompile modes (clean / auto) · log triage badges · layout modes · zoom everywhere</text>
+    <text x="40" y="792" fill="#7a869c">two-way SyncTeX: double-click code → PDF page · scroll PDF → editor follows · every write backed up for multi-writer safety</text>
+  </g>
+</svg>

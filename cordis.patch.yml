@@ -1,0 +1,4 @@
+- insert:
+    - id: dsh-latex-studio
+      name: '@zhaulee/dsh-latex-studio'
+      config: {}
